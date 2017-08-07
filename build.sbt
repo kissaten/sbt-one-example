@@ -1,7 +1,5 @@
-// import Dependencies._
+val stage = taskKey[Unit]("start server")
 
-// This an example of a simple project definition.
-// It should build on both sbt 0.13.15 and sbt 1.0.0-M5
 lazy val root = (project in file("."))
   .settings(
     organization in ThisBuild := "com.example",
